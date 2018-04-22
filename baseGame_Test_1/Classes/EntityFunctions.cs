@@ -22,9 +22,5 @@ namespace baseGame_Test_1
 				entity.Sprite = DataClass.Square;
 			}
 		}
-
-		public static void HandleInput() {
-
-		}
 	}
 }

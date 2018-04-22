@@ -16,9 +16,15 @@ namespace baseGame_Test_1
 			EntityFunctions.LoadContent();
 			EntityFunctions.LoadEntity(new EntitySquare(), new Vector2(0, 0));
 		}
+
 		public override void Update() {
+			InputHandler.UpdateStates();
 			foreach (Entity entity in EntityFunctions.Entities) {
 				entity.Update();
+			}
+
+			if (InputHandler.IsKeyPress(Keys.S)) {
+
 			}
 		}
 
