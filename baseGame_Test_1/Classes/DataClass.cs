@@ -10,17 +10,18 @@ namespace baseGame_Test_1
 {
 	class DataClass
 	{
-		public static Texture2D Square;
+		public static Texture2D Square, Projectile;
 		public static SpriteFont Text;
 
 		public static void LoadContent(ContentManager content) {
 			Square = content.Load<Texture2D>("Square");
+			Projectile = content.Load<Texture2D>("Projectile");
 			Text = content.Load<SpriteFont>("Text");
 		}
 	}
 
 	class Enumerations
 	{
-		public enum EntityType { Square }
+		public enum EntityType { Square, Projectile }
 	}
 }

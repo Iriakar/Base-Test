@@ -18,8 +18,13 @@ namespace baseGame_Test_1
 			entity.Initialize();
 			entity.Pos = pos;
 
-			if (entity.EntityType == Enumerations.EntityType.Square) {
+			if (entity.EntityType == Enumerations.EntityType.Square)
+			{
 				entity.Sprite = DataClass.Square;
+			}
+
+			else if (entity.EntityType == Enumerations.EntityType.Projectile) {
+				entity.Sprite = DataClass.Projectile;
 			}
 		}
 	}

@@ -16,7 +16,12 @@ namespace baseGame_Test_1
 		}
 
 		protected override void Initialize()
-		{ base.Initialize(); IsMouseVisible = true; }
+		{
+			base.Initialize(); IsMouseVisible = true;
+			this.graphics.PreferredBackBufferHeight = 720;
+			this.graphics.PreferredBackBufferWidth = 1280;
+			this.graphics.ApplyChanges();
+		}
 
 		protected override void LoadContent()
 		{

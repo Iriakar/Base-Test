@@ -15,6 +15,7 @@ namespace baseGame_Test_1
 		public override void LoadContent(ContentManager content) {
 			EntityFunctions.LoadContent();
 			EntityFunctions.LoadEntity(new EntitySquare(), new Vector2(0, 0));
+			EntityFunctions.LoadEntity(new EntityProjectile(), new Vector2(0, 0));
 		}
 
 		public override void Update() {

@@ -44,6 +44,7 @@
     <Compile Include="Classes\DataClass.cs" />
     <Compile Include="Classes\Entity.cs" />
     <Compile Include="Classes\EntityFunctions.cs" />
+    <Compile Include="Classes\EntityProjectile.cs" />
     <Compile Include="Classes\InputHandler.cs" />
     <Compile Include="Classes\Screen.cs" />
     <Compile Include="Classes\ScreenGame.cs" />

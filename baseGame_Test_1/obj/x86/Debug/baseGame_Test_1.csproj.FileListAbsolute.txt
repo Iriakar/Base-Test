@@ -24,3 +24,4 @@ C:\Users\Jake\Documents\Projects\Base Test\baseGame_Test_1\obj\x86\Debug\baseGam
 C:\Users\Jake\Documents\Projects\Base Test\baseGame_Test_1\obj\x86\Debug\baseGame_Test_1.exe
 C:\Users\Jake\Documents\Projects\Base Test\baseGame_Test_1\obj\x86\Debug\baseGame_Test_1.pdb
 C:\Users\Jake\Documents\Projects\Base Test\baseGame_Test_1\bin\Windows\x86\Debug\Content\Text.xnb
+C:\Users\Jake\Documents\Projects\Base Test\baseGame_Test_1\bin\Windows\x86\Debug\Content\Projectile.xnb

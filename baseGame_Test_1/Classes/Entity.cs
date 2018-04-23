@@ -12,10 +12,12 @@ namespace baseGame_Test_1
 	{
 		public Enumerations.EntityType EntityType { get; set; }
 		public Texture2D Sprite { get; set; }
-		public Vector2 Pos { get; set; }
+		public Vector2 Pos, NewPos;
+		public float Speed { get; set; }
 
+		public virtual void Initialize() { }
 		public virtual void Update() { }
 		public virtual void Draw(SpriteBatch spriteBatch) { }
-		public virtual void Initialize() { }
+		
 	}
 }
