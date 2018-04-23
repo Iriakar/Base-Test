@@ -30,7 +30,6 @@ namespace baseGame_Test_1
 
 		public override void Draw(SpriteBatch spriteBatch) {
 			spriteBatch.Draw(Sprite, Pos, Color.White);
-			spriteBatch.DrawString(DataClass.Text, Temp.ToString(), new Vector2(0, 0), Color.White);
 		}
 	}
 }
