@@ -4,8 +4,8 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Jake/Documents/Projects/Base Test/baseGame_Test_1/Content/Square.jpg</File>
-    <File>C:/Users/Jake/Documents/Projects/Base Test/baseGame_Test_1/Content/Text.spritefont</File>
-    <File>C:/Users/Jake/Documents/Projects/Base Test/baseGame_Test_1/Content/Projectile.jpg</File>
+    <File>C:/Users/Owner/Documents/Projects/Base-Test/Base-Test/baseGame_Test_1/Content/Square.jpg</File>
+    <File>C:/Users/Owner/Documents/Projects/Base-Test/Base-Test/baseGame_Test_1/Content/Text.spritefont</File>
+    <File>C:/Users/Owner/Documents/Projects/Base-Test/Base-Test/baseGame_Test_1/Content/Projectile.jpg</File>
   </SourceFiles>
 </SourceFileCollection>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Jake/Documents/Projects/Base Test/baseGame_Test_1/Content/Square.jpg</SourceFile>
-  <SourceTime>2018-04-19T11:23:20.4835651-04:00</SourceTime>
-  <DestFile>C:/Users/Jake/Documents/Projects/Base Test/baseGame_Test_1/Content/bin/Windows/Square.xnb</DestFile>
-  <DestTime>2018-04-19T11:25:54.613643-04:00</DestTime>
+  <SourceFile>C:/Users/Owner/Documents/Projects/Base-Test/Base-Test/baseGame_Test_1/Content/Square.jpg</SourceFile>
+  <SourceTime>2018-04-23T21:58:48.0533533-04:00</SourceTime>
+  <DestFile>C:/Users/Owner/Documents/Projects/Base-Test/Base-Test/baseGame_Test_1/Content/bin/Windows/Square.xnb</DestFile>
+  <DestTime>2018-04-23T21:59:18.9675307-04:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2017-03-01T10:05:36-05:00</ImporterTime>
+  <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2017-03-01T10:05:36-05:00</ProcessorTime>
+  <ProcessorTime>2016-03-30T02:36:08-04:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

@@ -14,8 +14,8 @@ namespace baseGame_Test_1
 		private float SprintFactor;
 
 		public override void Initialize() {
-			this.EntityType = Enumerations.EntityType.Square;
-			this.Speed = 1;
+			EntityType = Enumerations.EntityType.Square;
+			Speed = 1;
 		}
 
 		public override void Update() {

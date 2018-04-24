@@ -16,7 +16,7 @@ namespace baseGame_Test_1
 		public static void LoadEntity(Entity entity, Vector2 pos) {
 			Entities.Add(entity);
 			entity.Initialize();
-			entity.Pos = pos;
+			entity.Pos = entity.NewPos = pos;
 
 			if (entity.EntityType == Enumerations.EntityType.Square)
 			{

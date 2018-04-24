@@ -24,10 +24,6 @@ namespace baseGame_Test_1
 			foreach (Entity entity in EntityFunctions.Entities) {
 				entity.Update();
 			}
-
-			if (InputHandler.IsKeyPress(Keys.S)) {
-
-			}
 		}
 
 		public override void Draw(SpriteBatch spriteBatch) {

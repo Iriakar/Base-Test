@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Jake/Documents/Projects/Base Test/baseGame_Test_1/Content/Text.spritefont</SourceFile>
-  <SourceTime>2017-03-01T10:05:30-05:00</SourceTime>
-  <DestFile>C:/Users/Jake/Documents/Projects/Base Test/baseGame_Test_1/Content/bin/Windows/Text.xnb</DestFile>
-  <DestTime>2018-04-20T14:23:14.5328226-04:00</DestTime>
+  <SourceFile>C:/Users/Owner/Documents/Projects/Base-Test/Base-Test/baseGame_Test_1/Content/Text.spritefont</SourceFile>
+  <SourceTime>2018-04-23T21:58:48.0538549-04:00</SourceTime>
+  <DestFile>C:/Users/Owner/Documents/Projects/Base-Test/Base-Test/baseGame_Test_1/Content/bin/Windows/Text.xnb</DestFile>
+  <DestTime>2018-04-23T21:59:19.3392188-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
-  <ImporterTime>2017-03-01T10:05:36-05:00</ImporterTime>
+  <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
-  <ProcessorTime>2017-03-01T10:05:36-05:00</ProcessorTime>
-  <Parameters>
-    <Key>PremultiplyAlpha</Key>
-    <Value>True</Value>
-  </Parameters>
+  <ProcessorTime>2016-03-30T02:36:08-04:00</ProcessorTime>
   <Parameters>
     <Key>TextureFormat</Key>
     <Value>Compressed</Value>
