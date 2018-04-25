@@ -14,9 +14,8 @@ namespace baseGame_Test_1
 	{
 		public override void LoadContent(ContentManager content) {
 			EntityFunctions.LoadContent();
-			EntityFunctions.LoadEntity(new EntitySquare(), new Vector2(0, 0));
-			EntityFunctions.LoadEntity(new EntitySquare(), new Vector2(128, 128));
-			EntityFunctions.LoadEntity(new EntityProjectile(), new Vector2(0, 0));
+			//EntityFunctions.LoadEntity(new EntityPlayer(), new Vector2(0, 0));
+			EntityFunctions.LoadEntity(new EntityBouncer(), new Vector2(0, 0));
 		}
 
 		public override void Update() {
@@ -30,9 +29,8 @@ namespace baseGame_Test_1
 			foreach (Entity entity in EntityFunctions.Entities) {
 				entity.Draw(spriteBatch);
 			}
-			spriteBatch.DrawString(DataClass.Text, EntityFunctions.Entities.Count.ToString(), new Vector2(0, 32), Color.White);
-			spriteBatch.DrawString(DataClass.Text, EntityFunctions.Entities[0].Pos.ToString(), new Vector2(0, 0), Color.White);
-			spriteBatch.DrawString(DataClass.Text, EntityFunctions.Entities[1].Pos.ToString(), new Vector2(0, 16), Color.White);
+			//spriteBatch.DrawString(DataClass.Text, EntityFunctions.Entities.Count.ToString(), new Vector2(0, 60), Color.White);
+			//spriteBatch.DrawString(DataClass.Text, EntityFunctions.Entities[0].Pos.ToString(), new Vector2(0, 0), Color.White);
 		}
 	}
 }

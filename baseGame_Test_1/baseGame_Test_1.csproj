@@ -44,12 +44,11 @@
     <Compile Include="Classes\DataClass.cs" />
     <Compile Include="Classes\Entity.cs" />
     <Compile Include="Classes\EntityFunctions.cs" />
-    <Compile Include="Classes\EntityProjectile.cs" />
+    <Compile Include="Classes\EntityPlayer.cs" />
     <Compile Include="Classes\InputHandler.cs" />
     <Compile Include="Classes\Screen.cs" />
     <Compile Include="Classes\ScreenGame.cs" />
     <Compile Include="Classes\ScreenManager.cs" />
-    <Compile Include="Classes\EntitySquare.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
